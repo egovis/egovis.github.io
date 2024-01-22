@@ -1033,12 +1033,14 @@ a.btn-translucent {
 }
 
 footer {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   height: 100px;
   background-color: #61abec;
   color: white;
   text-align: center;
+  margin-top: 20px;
+  font-size: large;
 }
 
 .nav-footer {

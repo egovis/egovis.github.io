@@ -30,7 +30,7 @@ h4 {
 }
 
 section {
-  padding-top: 70px;
+  padding-top: 25px;
   background-color: white;
   background-clip: border-box;
 }
@@ -528,7 +528,7 @@ a.btn-translucent {
 }
 
 #tab-header {
-  margin-bottom: 65px;
+  /* margin-bottom: 65px; */
   width: 100%;
 }
 

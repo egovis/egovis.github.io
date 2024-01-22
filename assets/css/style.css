@@ -369,7 +369,7 @@ a.btn-translucent {
   color: #61abec;
 }
 
-.title {
+.title1, .title2, .title3 {
   margin-bottom: 33px;
   font-style: normal;
   font-weight: 700;
@@ -377,6 +377,20 @@ a.btn-translucent {
   font-size: 4.25rem;
   line-height: 1.05882353;
 }
+
+.title1 {
+  font-size: 4.25rem;
+}
+
+.title2 {
+  font-size: 3.5rem;
+}
+
+.title3 {
+  font-size: 3rem;
+}
+
+
 
 .sub-title {
   margin-top: 33px;

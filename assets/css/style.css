@@ -48,6 +48,10 @@ header {
   display: flex!important;
 }
 
+.navbar {
+  margin: auto;
+}
+
 .show-1025x512 {
   display: none !important;
 }
@@ -79,6 +83,7 @@ header {
   transition: all 0.3s;
   background: #ffffff;
   margin-bottom: 0;
+  margin: auto;
 }
 
 #nav-bar>.container-fluid {

@@ -45,6 +45,7 @@ header {
   left: 0;
   right: 0;
   z-index: 10;
+  display: flex;
 }
 
 .show-1025x512 {
@@ -206,7 +207,7 @@ ul {
   font-weight: bold;
 }
 
-#nav-menu-list ul {
+#nav-menu-list {
   list-style: none;
 }
 

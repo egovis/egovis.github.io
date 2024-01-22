@@ -15,8 +15,11 @@ body {
   font-weight: 400;
   line-height: 1.5;
   position: relative;
+}
+
+section {
   max-width: 1200px;
-  margin: auto;
+  margin: auto!important;
 }
 
 h1,
@@ -133,7 +136,6 @@ header {
 }
 
 a {
-  color: #9752cb !important;
   text-decoration: none !important;
 }
 
@@ -193,7 +195,6 @@ nav .fab {
 }
 
 ul {
-  list-style: none;
   font-size: 1.5rem;
   height: auto !important;
   margin: 0 !important;
@@ -203,6 +204,10 @@ ul {
   flex: 1;
   flex-wrap: wrap;
   font-weight: bold;
+}
+
+#nav-menu-list ul {
+  list-style: none;
 }
 
 .button-link {

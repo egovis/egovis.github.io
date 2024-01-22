@@ -9,7 +9,7 @@
     content="A joint workshop for egocentric computer vision from EPIC, Ego4D, HBHA, and Aria." />
   <meta name="keywords" content="video dataset, machine perception, machine-learning, research, egocentric videos, ego4d, epic-kitchens" />
 
-  <title>Egocentric 4D Perception (EGO4D)</title>
+  <title>First Joint Egocentric Vision Workshop</title>
   <link rel="preconnect" href="https://use.fontawesome.com" />
   <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com" />
   <link rel="preconnect" href="https://ajax.googleapis.com" />
@@ -23,7 +23,7 @@
   <link rel="preload" as="image" href="../assets/images/map.jpg"
     media="screen and (max-width: 1024px), (max-height:511px)" />
 
-  <link rel="icon" href="../assets/images/ego4d-icon.ico" />
+  <link rel="icon" href="../assets/images/egovis-logo.ico" />
 
   <!-- Latest font-awesome css for icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -125,6 +125,9 @@
         <div id="nav-menu" class="collapse">
           <ul id="nav-menu-list" data-app-modern-menu="true">
             <li class="nav-item">
+              <a href="#overview" class="nav-link">Overview</a>
+            </li>
+            <li class="nav-item">
               <a href="#challenges" class="nav-link">Challenges</a>
             </li>
             <li class="nav-item">
@@ -134,28 +137,18 @@
               <a href="#impdates" class="nav-link">Important Dates</a>
             </li>
             <li class="nav-item">
-              <a href="#invited" class="nav-link">Invited Speakers</a>
+              <a href="#program" class="nav-link">Program</a>
             </li>
             <li class="nav-item">
-              <a href="#program" class="nav-link">Schedule</a>
+              <a href="#invited" class="nav-link">Invited Speakers</a>
             </li>
             <li class="nav-item">
               <a href="#organisers" class="nav-link">Organisers</a>
             </li>
+            <li class="nav-item">
+              <a href="#pastevents" class="nav-link">Past Events</a>
+            </li>
           </ul>
-          <!-- <div id="social-links">
-            <a href="https://github.com/EGO4D" target="_blank" rel="noopener noreferrer" class="icon-wrap">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://drive.google.com/file/d/1oknfQIH9w1rXy6I1j5eUE6Cqh96UwZ4L/view?usp=sharing" target="_blank"
-              rel="noopener noreferrer" class="icon-wrap">
-              <i class="fab fa-youtube"></i>
-            </a>
-
-            <a href="mailto:info@ego4d-data.org" target="_blank" rel="noopener noreferrer" class="icon-wrap">
-              <i class="fab fas fa-envelope"></i>
-            </a>
-          </div> -->
         </div>
         <div id="discover"></div>
       </div>
@@ -166,21 +159,65 @@
     <div class="container">
       <div class="row">
         <div id="tab-header" class="align-center">
-          <h3 class="title no-margin">First Joint Egocentric Vision Workshop</h3>
-          <p class="sub-title slide-text">This joint workshop aims to be the focal point for the egocentric com- puter vision community to meet and discuss progress in this fast growing research area. The workshop is a collaboration between <a href="https://epic-workshop.org/EPIC_CVPR23/submission">EPIC Workshop</a>, <a href='https://ego4d-data.org/workshops/cvpr23/'>Ego4D Workshop</a>, <a href="https://sites.google.com/view/egocentric-hand-body-activity">HBHA Workshop</a>, and <a href="https://ariatutorial2023.github.io">Aria Tutorial</a>.</p>
+          <h3 class="title no-margin">First Joint Egocentric Vision (EgoVis) Workshop</h3>
+          <h4 class="title no-margin">Held in Conjunction with CVPR 2024</h4>
+          <h5 class="title no-margin">One Day Among 17-18 June 2024 - Seattle, USA</h5>
+          
+          <p class="sub-title slide-text">
+            This joint workshop aims to be the focal point for the egocentric computer vision 
+            community to meet and discuss progress in this fast growing research area, addressing
+            egocentric vision in a comprehensive manner including key research challenges in video 
+            understanding, multi-modal data, interaction learning, self-supervised learning, AR/VR with 
+            applications to cognitive science and robotics.
+          </p>
+            
+            
+            <!--This joint workshop aims to be the focal point for the egocentric com- puter vision community to meet and discuss progress in this fast growing research area. The workshop is a collaboration between <a href="https://epic-workshop.org/EPIC_CVPR23/submission">EPIC Workshop</a>, <a href='https://ego4d-data.org/workshops/cvpr23/'>Ego4D Workshop</a>, <a href="https://sites.google.com/view/egocentric-hand-body-activity">HBHA Workshop</a>, and <a href="https://ariatutorial2023.github.io">Aria Tutorial</a>.</p>-->
         </div>
       </div>
+    </div>
+  </section>
+
+
+  <section id="overview">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 align-center">
+          <h3 class="title large-text">Overview</h3>
+        </div>
+      </div>
+      <p class="justified">
+        Wearable cameras, smart glasses and augmented reality/virtual reality (AR/VR) headsets are becoming increasingly important as both vehicles for research and off-the-shelf products. They contain many sensors including inward and outward facing cameras or depth sensors, as well as non-visual modalities such as microphones, IMUs, GPS, and more. Simultaneously, significant progress is being made on machine perception capabilities allowing to precisely localise the user in space (SLAM), track where they are looking (eye tracking) or what they are doing (e.g. hand tracking). Taken together, such data will provide a way to understand people's behavior, and combined with head-mounted displays, unlocks new ways of interaction and visualization including augmented reality.
+Egocentric sensing devices could soon be able to automatically understand what the wearer is doing, manipulating, or attending to, recognise the surrounding scene, understand gestures and social relationships. More broadly, these devices have the potential to positively impact society in many application domains, including assistive technology, education, fitness, entertainment, gaming, eldercare, robotics, and augmented reality.
+      </p>
+
+      <p>
+        This research has been previously hindered by the limited datasets in a data-hungry research landscape.
+This has recently changed thanks to the efforts of the community in releasing a number of large-scale datasets capturing different aspects of egocentric perception, such as:
+<ul>
+  <li><a href="http://epic-kitchens.github.io" target="_blank">EPIC-KITCHENS</a>, a large-scale dataset of egocentric videos including 100 hours of audio-visual, non-scripted recordings in 45 native environments and 4 different cities, capturing all daily activities in the kitchen over multiple days. </li>
+  <li><a href="https://ego-exo4d-data.org" target="_blank">EGO-EXO4D</a>, a diverse, large-scale multi-modal, multi-view, video dataset and benchmark collected across 13 cities worldwide by 839 camera wearers, capturing 1422 hours of video of skilled human activities.</a></li>
+  <li><a href="https://ego4d-data.org" target="_blank">Ego4D</a>, a massive egocentric video dataset containing 3,600+ hours of daily-life activity video spanning hundreds of scenarios (house-hold, outdoor, workplace, leisure, etc.) captured by 850+ unique camera wearers from 74 worldwide locations and 9 different countries.</li>
+  <li><a href="http://holoassist.github.io" target="_blank">HoloAssist</a>, a new large-scale egocentric dataset with eight heterogeneous modalities in an interactive, assistive task completion setting. This dataset captures the complication of interaction in assistive technologies and highlights important challenges like timely intervention and mistake detection in Mixed Reality applications.  HoloAssist offers 169 hours of data with 8 modalities (RGB, depth, head pose, 3D hand pose, eye gaze, audio, IMU, and text) captured by 220+ unique participants with diverse backgrounds. 
+  <li><a href="https://www.projectaria.com/datasets/adt/" target="_blank">Aria Digital Twin</a>, an egocentric dataset captured using Aria glasses, with extensive simulated ground truth for devices, objects and environment. This dataset sets a new standard for egocentric machine perception research, and accelerates research into a number of challenges including 3D object detection and tracking, scene reconstruction and understanding, sim-to-real learning, human pose prediction, while also inspiring new machine perception tasks for AR applications.</li>
+  <li><a href="https://www.projectaria.com/datasets/ase/" target="_blank">Aria Synthetic Environments</a>, a synthetic dataset, created from procedurally-generated interior layouts filled with 3D objects, simulated with the sensor characteristics of Aria glasses. Unlike prior datasets for 3D scene understanding, which are typically not large enough for ML training, the Aria Synthetic Environments Dataset sets a new precedent for the scale of indoor environment datasets. This surfaces exciting new research opportunities for tasks related to 3D scene reconstruction, and object detection and tracking.</li>
+</ul>
+      </p>
+
+      <p>
+        The goal of this workshop is to provide an exciting discussion forum for researchers working in this challenging and fast-growing area, and to provide a means to unlock the potential of data-driven research with our datasets to further the state-of-the-art. 
+      </p>
     </div>
   </section>
 
   <section id="challenges">
     <div class="container">
       <div class="row card-row">
-        <div class="col-xs-12 col-sm-6 col-lg-3 title">
-          <h2 class="title">Challenges</h2>
+        <div class="col-xs-12 align-center">
+          <h3 class="title large-text">Challenges</h3>
         </div>
         <p>
-        Challenge details coming soon!
+            Challenge details coming soon!
         </p>
       </div>
     </div>
@@ -190,7 +227,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 align-center">
-          <h3 class="title large-text">Call for Extended Abstracts</h3>
+          <h3 class="title large-text">Call for Abstracts</h3>
         </div>
       </div>
       <p class="justified">
@@ -252,20 +289,20 @@
       </div>
       <table class="dates-table">
         <tr>
-            <td class='small-title'>Challenge Begin</td>
+            <td class='small-title'>Leaderboards Open</td>
             <td>Feb 2024</td>
         </tr>
         <tr>
-          <td class='small-title'>Challenge Deadline</td>
+          <td class='small-title'>Leaderboards Close</td>
           <td>30 May 2024</td>
         </tr>
         <tr>
-          <td class='small-title'>Challenge Report Deadline</td>
-          <td>5 June 2024</td>
+          <td class='small-title'>Technical Reports Deadline (on CMT)</td>
+          <td>5 June 2024 (23:59 PT)</td>
         </tr>
         <tr>
           <td class='small-title'>Extended Abstract Deadline</td>
-          <td>10 May 2024</td>
+          <td>10 May 2024 (23:59 PT)</td>
         </tr>
         <tr>
           <td class='small-title'>Notification to Authors</td>
@@ -277,89 +314,18 @@
         </tr>
         <tr>
           <td class='small-title'>Workshop Date</td>
-          <td>Coming soon</td>
+          <td>TBA</td>
         </tr>
       </table>
     </div>
   </section>
 
-  <section id="invited">
-    <div class="align-center">
-      <h3 class="title large-text">Invited Speakers</h3>
-      <p class="slide-text">
-        We have several invited talks scheduled for the workshop
-      </p>
-    </div>
-    <div class="container">
-      <div class="row align-items-center md-flip-order">
-        <div class="col-xs-12">
-          <div class="consortium_logos">
-            <div class="image">
-              <img src="../assets/images/takeo.jpg" alt="" title="" /><br /><a class="slide-text"
-                href="https://www.ri.cmu.edu/ri-faculty/takeo-kanade/">Takeo Kanade</a>
-              <p class="slide-text" style="text-align: center">Carnegie Mellon University, USA</p>
-              <button type="button" class="btn collapsible">Abstract</button>
-              <div class="content">
-                <p>Coming soon</p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="../assets/images/jim.jpg" alt="" title="" /><br /><a class="slide-text"
-                href="https://rehg.org">Jim Rehg</a>
-              <p class="slide-text" style="text-align: center">University of Illinois Urbana-Champaign, USA</p>
-              <button type="button" class="btn collapsible">Abstract</button>
-              <div class="content">
-                <p>Coming soon</p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="../assets/images/diane.jpg" alt="" title="" /><br /><a class="slide-text"
-                href="https://dlarlus.github.io">Diane Larlus</a>
-              <p class="slide-text" style="text-align: center">Naver Labs Europe and MIAI Grenoble</p>
-              <button type="button" class="btn collapsible">Abstract</button>
-              <div class="content">
-                <p>Coming soon</p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="../assets/images/fer1.jpg" alt="" title="" /><br /><a class="slide-text"
-                href="https://www.cs.cmu.edu/~ftorre/">Fernando De la Torre</a>
-              <p class="slide-text" style="text-align: center">Carnegie Mellon University, USA</p>
-              <button type="button" class="btn collapsible">Abstract</button>
-              <div class="content">
-                <p>Coming soon</p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="../assets/images/michael.jpg" alt="" title="" /><br /><a class="slide-text"
-                href="https://web.stanford.edu/~mcfrank/">Michael C. Frank</a>
-              <p class="slide-text" style="text-align: center">Stanford University, USA</p>
-              <button type="button" class="btn collapsible">Abstract</button>
-              <div class="content">
-                <p>Coming soon</p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="../assets/images/bria.jpg" alt="" title="" /><br /><a class="slide-text"
-                href="https://www.brialong.com">Bria Long</a>
-              <p class="slide-text" style="text-align: center">University of California, San Diego, USA</p>
-              <button type="button" class="btn collapsible">Abstract</button>
-              <div class="content">
-                <p>Coming soon</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
 
   <section id="program">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 align-center">
-          <h3 class="title large-text">Schedule</h3>
+          <h3 class="title large-text">Program</h3>
         </div>
       </div>
       <div>
@@ -370,7 +336,7 @@
         <p>
         <style>
         table {
-          width: 70%;
+          width: 100%;
           border-collapse: collapse;
         }
 
@@ -389,6 +355,7 @@
         }
         </style>
 
+        A tentative programme is shown below.
         <table style="margin-left: auto; margin-right: auto;">
           <tr>
             <th>Time</th>
@@ -400,7 +367,7 @@
           </tr>
           <tr>
             <td>09:00-09:30</td>
-            <td>Invited Keynote Speaker 1: Takeo Kanade</td>
+            <td>Invited Keynote 1<!--: Takeo Kanade--></td>
           </tr>
           <tr>
             <td>09:30-10:30</td>
@@ -412,7 +379,7 @@
           </tr>
           <tr>
             <td>11:30-12:00</td>
-            <td>Invited Keynote 2: Jim Rehg</td>
+            <td>Invited Keynote 2<!--: Jim Rehg--></td>
           </tr>
           <tr>
             <td>12:00-13:00</td>
@@ -424,7 +391,7 @@
           </tr>
           <tr>
             <td>14:00-14:30</td>
-            <td>Invited Keynote 3: Diane Larlus</td>
+            <td>Invited Keynote 3<!--: Diane Larlus--></td>
           </tr>
           <tr>
             <td>14:30-15:30</td>
@@ -440,7 +407,7 @@
           </tr>
           <tr>
             <td>16:30-17:00</td>
-            <td>Invited Keynote 4: Michael C. Frank & Bria Long</td>
+            <td>Invited Keynote 4<!--: Michael C. Frank & Bria Long--></td>
           </tr>
           <tr>
             <td>17:00-18:00</td>
@@ -448,7 +415,7 @@
           </tr>
           <tr>
             <td>18:00-18:30</td>
-            <td>Invited Keynote 5: Fernando de La Torre</td>
+            <td>Invited Keynote 5<!--: Fernando de La Torre--></td>
           </tr>
           <tr>
             <td>18:30-19:00</td>
@@ -460,71 +427,58 @@
     </div>
   </section>
 
-  <section id="instructions">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 align-center">
-          <h3 class="title large-text">Instructions</h3>
-        </div>
-      </div>
-      <div>
-        <p>
-          <b>Coming soon!</b>
-        </p>
+
+  <section id="invited">
+    <div class="align-center">
+      <h3 class="title large-text">Invited Speakers</h3>
+      <p class="slide-text">
+        We have several invited talks scheduled for the workshop
+      </p>
     </div>
-  </section>
-
-  <section id="qa">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12 align-center">
-          <h3 class="title large-text">FAQs</h3>
-        </div>
-      </div>
-
-      <div class="timelines-container">
-        <div class="row timeline-element divider-line">
-          <div class="
-                col-lg-6
-                col-md-6
-                col-xs-11
-                col-xs-offset-1
-                col-md-offset-0
-                col-lg-offset-0
-              ">
-            <div class="timeline-text-content">
-              <h4 class="small-title">
-                Does the workshop have any proceedings?
-              </h4>
-              <p>
-                No, we will only accept extended abstracts.
-              </p>
+      <div class="row align-items-center md-flip-order">
+        <div class="col-xs-12">
+          <div class="consortium_logos">
+            <div class="image">
+              <img src="../assets/images/takeo.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://www.ri.cmu.edu/ri-faculty/takeo-kanade/">Takeo Kanade</a>
+              <p class="slide-text" style="text-align: center">Carnegie Mellon University, USA</p>
+              
             </div>
-          </div>
-          <span class="timeline-point"></span>
-          <div class="timeline-data-panel col-lg-6 col-md-6"></div>
-        </div>
-
-        <div class="row timeline-element divider-line">
-          <div class="timeline-data-panel col-lg-6 col-md-6"></div>
-          <span class="timeline-point"></span>
-          <div class="
-                col-lg-6
-                col-md-6
-                col-xs-11
-                col-xs-offset-1
-                col-md-offset-0
-                col-lg-offset-0
-              ">
-            <div class="timeline-text-content">
-              <h4 class="small-title">When will the challenges open/close?</h4>
-              <p>
-                The Ego4D challenges will open in February 2023.</a>
-              </p>
+            <div class="image">
+              <img src="../assets/images/jim.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://rehg.org">Jim Rehg</a>
+              <p class="slide-text" style="text-align: center">University of Illinois Urbana-Champaign, USA</p>
+              
+            </div>
+            <div class="image">
+              <img src="../assets/images/diane.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://dlarlus.github.io">Diane Larlus</a>
+              <p class="slide-text" style="text-align: center">Naver Labs Europe and MIAI Grenoble</p>
+              
+            </div>
+            <div class="image">
+              <img src="../assets/images/fer1.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://www.cs.cmu.edu/~ftorre/">Fernando De la Torre</a>
+              <p class="slide-text" style="text-align: center">Carnegie Mellon University, USA</p>
+              
+            </div>
+            <div class="image">
+              <img src="../assets/images/michael.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://web.stanford.edu/~mcfrank/">Michael C. Frank</a>
+              <p class="slide-text" style="text-align: center">Stanford University, USA</p>
+              
+            </div>
+            <div class="image">
+              <img src="../assets/images/bria.jpg" alt="" title="" /><br /><a class="slide-text"
+                href="https://www.brialong.com">Bria Long</a>
+              <p class="slide-text" style="text-align: center">University of California, San Diego, USA</p>
+              
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -626,6 +580,87 @@
       </div>
     </div>
   </section>
+
+  <section id="pastevents">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 align-center">
+          <h3 class="title large-text">Related Past Events</h3>
+        </div>
+      </div>
+      <div>
+        This workshop follows the footsteps of the following previous events:
+        <ul>
+          <li><a href="https://sites.google.com/view/cvpr2022w-ego4d-epic/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">Ego4D&amp;EPIC@CVPR2022: Joint International 1st Ego4D and 10th EPIC Workshop</a> in conjunction with <a href="https://cvpr2022.thecvf.com" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">CVPR 2022</a></li>
+          <li><a href="http://www.epic-workshop.org/EPIC_ICCV21/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ICCV21: The Ninth International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="https://iccv2021.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ICCV 2021</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_CVPR21/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@CVPR21: The Eighth International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://cvpr2021.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">CVPR 2021</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_ECCV20/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ECCV20: The Seventh International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="https://eccv2020.eu/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ECCV 2020</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_CVPR20/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@CVPR20: The Sixth International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://cvpr2020.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">CVPR 2020</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_ICCV19/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ICCV19:  The Fifth International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://iccv2019.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ICCV 2019</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_CVPR19/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@CVPR19: The Fourth International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://cvpr2019.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">CVPR 2019</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_ECCV18/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ECCV18: The Third International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="https://eccv2018.org/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ECCV 2018</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_ICCV17/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ICCV17: The Second International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://iccv2017.thecvf.com/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ICCV 2017</a>;</li>
+          <li><a href="http://www.epic-workshop.org/EPIC_ECCV16/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">EPIC@ECCV16: The First International Workshop on Egocentric Perception, Interaction and Computing</a> in conjunction with <a href="http://www.eccv2016.org/" target="_blank" rel="nofollow noopener noreferrer" class="external-link no-image">ECCV 2016</a>;</li>
+          </ul>
+      
+      </div>
+  </section>
+<!--
+  <section id="qa">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 align-center">
+          <h3 class="title large-text">FAQs</h3>
+        </div>
+      </div>
+
+      <div class="timelines-container">
+        <div class="row timeline-element divider-line">
+          <div class="
+                col-lg-6
+                col-md-6
+                col-xs-11
+                col-xs-offset-1
+                col-md-offset-0
+                col-lg-offset-0
+              ">
+            <div class="timeline-text-content">
+              <h4 class="small-title">
+                Does the workshop have any proceedings?
+              </h4>
+              <p>
+                No, we will only accept extended abstracts.
+              </p>
+            </div>
+          </div>
+          <span class="timeline-point"></span>
+          <div class="timeline-data-panel col-lg-6 col-md-6"></div>
+        </div>
+
+        <div class="row timeline-element divider-line">
+          <div class="timeline-data-panel col-lg-6 col-md-6"></div>
+          <span class="timeline-point"></span>
+          <div class="
+                col-lg-6
+                col-md-6
+                col-xs-11
+                col-xs-offset-1
+                col-md-offset-0
+                col-lg-offset-0
+              ">
+            <div class="timeline-text-content">
+              <h4 class="small-title">When will the challenges open/close?</h4>
+              <p>
+                The Ego4D challenges will open in February 2023.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  
 
 </body>
 <script>

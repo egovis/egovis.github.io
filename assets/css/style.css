@@ -15,6 +15,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   position: relative;
+  max-width: 1200px;
+  margin: auto;
 }
 
 h1,
@@ -103,7 +105,7 @@ header {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #7030a0;
+  background-color: #61abec;
 }
 
 .hamburger span:nth-child(1) {
@@ -215,19 +217,19 @@ a.button-link {
 }
 
 a.btn-translucent {
-  background-color: #7030a0;
+  background-color: #61abec;
   color: white !important;
 }
 
 .themed-button {
   color: #fff;
-  background-color: #7030a0;
+  background-color: #61abec;
 }
 
 .button-outline {
   background: none;
-  border-color: #7030a0;
-  border: 1px solid #7030a0;
+  border-color: #61abec;
+  border: 1px solid #61abec;
 }
 
 #header-image {
@@ -338,7 +340,7 @@ a.btn-translucent {
 
 #left-control,
 #right-control {
-  color: #7030a0;
+  color: #61abec;
   bottom: 35px;
   top: auto;
   width: 44px;
@@ -358,7 +360,7 @@ a.btn-translucent {
 
 .title,
 .small-title {
-  color: #7030a0;
+  color: #61abec;
 }
 
 .title {
@@ -437,7 +439,7 @@ a.btn-translucent {
 }
 
 .card-block .card-content::before {
-  background-color: #7030a0;
+  background-color: #61abec;
 }
 
 .card-image {
@@ -454,7 +456,7 @@ a.btn-translucent {
 }
 
 .card-title {
-  color: #7030a0;
+  color: #61abec;
   margin-bottom: 7px;
   font-weight: 600;
   position: relative;
@@ -635,7 +637,7 @@ a.btn-translucent {
 }
 
 #parallax-image .btn-primary {
-  background-color: #7030a0;
+  background-color: #61abec;
   color: white;
 }
 
@@ -692,7 +694,7 @@ a.btn-translucent {
   font-weight: 700;
   border: none;
   background-color: transparent;
-  border-bottom: 11px solid #7030a0;
+  border-bottom: 11px solid #61abec;
 }
 
 .nav-tab-image {
@@ -901,7 +903,7 @@ a.btn-translucent {
   position: absolute;
   content: "";
   width: 0.5px;
-  background-color: #7030a0;
+  background-color: #61abec;
   left: calc(50% - 1px);
   height: calc(100% - 3rem);
   opacity: 0.35;
@@ -909,7 +911,7 @@ a.btn-translucent {
 
 .timeline-text-content {
   padding: 27px 27px 28px 37px;
-  border: 1px solid #7030a0;
+  border: 1px solid #61abec;
   border-radius: 4px;
   background-color: #ffffff;
   position: relative;
@@ -919,7 +921,7 @@ a.btn-translucent {
   content: "";
   width: 14px;
   height: 14px;
-  border: 1px solid #7030a0;
+  border: 1px solid #61abec;
   border-bottom: none;
   border-left: none;
   position: absolute;
@@ -953,7 +955,7 @@ a.btn-translucent {
   width: 10px;
   height: 10px;
   transform: translateX(-50%);
-  background-color: #7030a0;
+  background-color: #61abec;
 }
 
 .timeline-point:before {
@@ -977,7 +979,7 @@ a.btn-translucent {
   padding: 7px 7px 7px 0;
   margin-bottom: 0;
   text-align: center;
-  color: #7030a0;
+  color: #61abec;
 }
 
 .form-group {
@@ -989,8 +991,8 @@ a.btn-translucent {
 
 .subscription-form-control {
   background-color: #ffffff !important;
-  color: #7030a0;
-  border: 1px solid #7030a0;
+  color: #61abec;
+  border: 1px solid #61abec;
   padding: 21px 18px;
   border-radius: 0;
   border-top-left-radius: 4px;
@@ -1031,7 +1033,7 @@ footer {
 .widget-title {
   line-height: 1.17;
   margin-bottom: 20px;
-  color: #7030a0;
+  color: #61abec;
 }
 
 .widget-feed {
@@ -1248,7 +1250,7 @@ footer {
 
 @media (min-width: 1199px) {
   .form-title {
-    border-right: 1px solid #7030a0;
+    border-right: 1px solid #61abec;
   }
 }
 
@@ -1311,7 +1313,7 @@ footer {
 .winners-team-name {
   font-weight: bold;
   font-size: 1.6rem;
-  color: #7030a0;
+  color: #61abec;
 }
 
 .winners-table,
@@ -1381,7 +1383,7 @@ p.justified{
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
-  color: #7030a0;
+  color: #61abec;
   cursor: pointer;
   padding: 18px;
   width: 20%;

@@ -1370,7 +1370,7 @@ ul.cfp{
 
 /* Paragraph with standard font size and justified text */
 
-p.justified{
+p{
   font-size: min(1.8rem, max(1em, 3vmin));
   text-align: justify;
   text-justify: inter-word;

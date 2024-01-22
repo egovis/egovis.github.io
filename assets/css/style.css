@@ -35,13 +35,6 @@ section {
   background-clip: border-box;
 }
 
-section.footer {
-  height: 200px;
-  background-color: #61abec;
-  color: white;
-  text-align: center;
-}
-
 header {
   height: auto;
   position: relative;
@@ -1042,7 +1035,10 @@ a.btn-translucent {
 footer {
   padding-top: 5rem;
   padding-bottom: 2rem;
-  background-color: #ececec;
+  height: 200px;
+  background-color: #61abec;
+  color: white;
+  text-align: center;
 }
 
 .nav-footer {

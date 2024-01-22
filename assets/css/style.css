@@ -35,6 +35,13 @@ section {
   background-clip: border-box;
 }
 
+section.footer {
+  height: 200px;
+  background-color: #61abec;
+  color: white;
+  text-align: center;
+}
+
 header {
   height: auto;
   position: relative;

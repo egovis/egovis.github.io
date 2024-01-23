@@ -463,9 +463,9 @@ a.btn-translucent {
   z-index: 1;
 }
 
-.card-block .card-content::before {
+/* .card-block .card-content::before {
   background-color: #040a05;
-}
+} */
 
 .card-image {
   display: flex;

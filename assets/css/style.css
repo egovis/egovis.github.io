@@ -1356,10 +1356,8 @@ footer {
 
 .dates-table{
   margin-bottom: 50px;
-  width: 50%;
+  width: 100%;
   max-width: 1024px;
-  margin-left: 25%;
-  margin-right: 25%;
 }
 
 .dates-table,

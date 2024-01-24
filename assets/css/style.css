@@ -502,8 +502,8 @@ a.btn-translucent {
 }
 
 .card-image img {
-  max-width: 125px;
-  max-height: 140px;
+  max-width: 200px;
+  max-height: 100px;
   align-self: center;
 }
 

@@ -1,2 +1,2 @@
 # egovis.github.io
-Website for the EgoVis Workshop
+Website for EgoVis

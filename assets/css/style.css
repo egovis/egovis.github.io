@@ -1486,4 +1486,5 @@ p{
 
 ul {
   font-size: min(1.8rem, max(1em, 3vmin));
+  text-align: justify;
 }

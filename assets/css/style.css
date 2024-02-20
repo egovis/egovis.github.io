@@ -1483,3 +1483,7 @@ p{
 .btn.collapsible.active {
   background-color: #ccc; /* Darker grey */
 }
+
+ul {
+  font-size: min(1.8rem, max(1em, 3vmin));
+}
